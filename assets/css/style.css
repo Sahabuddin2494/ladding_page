@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* header_section_start */
+.header_section_start{
+    background-color: #00BD64;
+    text-align: center;
+}
+.header_section_left{
+
+}
+.header_section_left h3{
+    font-weight:600;
+    font-family: 'Atma', cursive;
+    color: white;
+}
+
+/* header_middle_section_start */
+
+.header_part_middle {
+    font-family: "Graduate", Sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header_part_middle_one {
+    text-align: center;
+    color: white;
+}
+.header_part_middle_one .m_count1 {
+  font-size: 13px;
+  margin: 0px;
+}
+.header_part_middle_one .m_count_title {
+    margin: 0px;
+    font-size: 25px;
+}
+/* header_middle_section_end */
+/* header_right_part_start */
+
+.header_part_right {
+    background-color: black;
+    text-align: center;
+    border-radius: 8px;
+    padding: 4px 0px;
+}
+
+.header_part_right .btn {
+    font-family: "Graduate", Sans-serif;
+    font-weight: 500;
+    display: block;
+    margin:0px;
+    padding: 0px;
+}
+
+.header_part_right:hover {
+    background-color: navy;
+    color: yellowgreen;
+}
+/* header_right_part_end */
+/* header-section-end */
+/* banner_section_start */
+.banner_section_start{
+
+}
+.banner_section_logo{
+    text-align: center;
+}
+.b_sec_logo_img{
+    width:300px;
+    height: 100px;
+}
+/* .banner_caption_start */
+.banner_caption_start{
+text-align: center;
+}
+.banner_caption_start h2{
+    color: var( --e-global-color-58f37a2 );
+    font-family: "Hind Siliguri", Sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 85px;
+    color: #00ACE9;
+}
+/* .banner_caption_end */
+/* banner_footer_section_start */
+.banner_footer_section{
+text-align: center;
+}
+.banner_footer_section h5{
+    color: var( --e-global-color-01a3858 );
+    font-family: "Hind Siliguri", Sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 40px;
+}
+/* banner_footer_section_end */
+/* banner_button_section_start */
+.banner_button_section{
+    text-align: center;
+}
+.banner_button_section .btn{
+    font-family: "Hind Siliguri", Sans-serif;
+    font-weight:400;
+    font-size: 26px;
+    color:#EBE4F1;
+    background-color: #561786;
+    padding: 15px 20px;
+}
+.banner_button_section .btn:hover{
+  background-color:cadetblue;
+  color:navy;
+}
+.cmm_btn_text{
+    color: #DCB561;
+}
+/* banner_button_section_end */
+/* banner_section_end */
+/* why_need_e-commerce_website_start */
+.why_need_ecommerce_web{
+    background-color: #F6F6F6;
+}
+.why_need_ecommerce_web_title{
+text-align: center;
+background-color: #020201;
+}
+.why_need_ecommerce_web_title h1{
+    font-family: "Hind Siliguri", Sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+.why_cmm_t_color{
+    color:#FFE15B!important;
+}
+.why_need_ecommerce_web_para{
+
+}
+/* why_need_e_ecommerce_website_end */
+/* benefit_of_ecommece_website_start */
+.benefit_of_ecommece_website{
+    background-color:#3A0256;
+}
+.benefit_t_color{
+    color: black!important;
+}
+/* title_end */
+.benefit_of_ecommece_website_details{
+background-color:#3A0256;
+color:white;
+}
+.benefit_of_eco_web_details_icon{
+text-align: center;
+}
+.benefit_of_eco_web_details_icon .svg-inline--fa { 
+    height: 3em;
+    vertical-align: -0.125em;
+    background-color:black!important;
+   color: white;
+}
+.benefit_of_eco_web_details_para{
+}
+.benefit_of_eco_web_details_para h5{
+    font-family: "Hind Siliguri", Sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height:38px;
+}
+/* benefit_of_ecommece_website_end  */
+/* course_modular-section_start */
+.course_modular_section{
+
+}
+.course_modular_title{
+text-align: center;
+background-color:#0A06D3;
+}
+.course_modular_title h2{
+    color: #FFFFFF;
+    font-family: "Hind Siliguri", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.course_modular_details{
+
+}
+/* left_sytart */
+.course_modular_details_left{
+
+}
+.course_modu_de_left_one{
+display: flex;
+}
+.course_modu_de_left_one span{
+
+border-radius: 50%;
+}
+.course_modu_de_left_one span .svg-inline--fa {
+    height: 1.3em;
+    vertical-align: -0.125em;
+    padding: 4px 4px;
+    background-color:#00BD64;
+    color: white;
+    border-radius: 50%;
+}
+.course_modu_de_left_one h5{
+    font-family: "Hind Siliguri", Sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 8px;
+    
+}
+/* left_section_end */
+/* course_modular_section_end */
+/* those_who_need_this_course_start */
+.those_who_need_this_course_start{
+
+}
+.those_who_color{
+color: #FF8F4F;
+}
+.those_who_color2{
+    color: #FF5500;
+}
+.course_modular_details_btn{
+
+}
+/* those_who_need_this_course_end */
+/* talk_about_us_previous_student_start */
+.talk_about_us_previous_student{
+
+}
+.talk_about_us_previous_details{
+
+}
+.talk_about_us_img{
+    border-radius: 10px;
+    width:100%;
+    height: 230px;
+}
+.talk_about_us_previous_item1{
+border: 3px solid #8D6D9D;
+border-radius:10px;
+}
+/* item_one_end */
+/* talk_about_us_previous_student_end */
+/* big_section_start */
+.course_regular_price_section{
+    background-color:#00BD64;
+}
+.course_regular_price_title{
+
+}
+.course_regular_price_title h1{
+    text-align: center;
+    font-family: "Hind Siliguri", Sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+}
+/* cour_reg_price_billing_details_start */
+
+.Billing_details_section_left {
+    background-color: #3A0256;
+}
+
+.Billing_details_title {
+    text-align: left;
+}
+.rasel_f_price p{
+    
+}
+.Billing_details_title h5 {
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.Billing_details_left_form {
+
+}
+
+.Billing_details_left_form .first_row label {
+    font-family: "Barlow Condensed", Sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.Billing_details_left_form .first_row input {
+    padding: 10px 0px;
+    font-size: 18px;
+}
+/* left_section_end */
+/* cour_reg_price_billing_details_end */
+/* our_oder_section_start */
+/* right_section_start */
+.Billing_details_section_right {
+    background-color:#3A0256;
+}
+
+/* body_start */
+.Billing_details_body_right {
+    background-color: white;
+}
+
+.Billing_details_body_right .t_head1 {
+    font-weight: 600;
+}
+
+.Billing_details_body_right tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-bottom: 1px dotted #008052 !important;
+}
+
+.Billing_table_body {}
+
+.billing_book_sector_inner p {
+   font-weight: bold;
+    color: #008052;
+    font-size: 14px;
+}
+.rasel_f_price p{
+    font-weight: bold;
+    color: #008052;
+    font-size: 14px;
+}
+.billing_book_sec_2 p {
+    color: #6F6F6F;
+    margin: 4px 0px;
+}
+
+.billing_book_sec_2_right p {
+    text-align: right;
+    font-weight: 400;
+    color: #616161;
+    margin: 4px 0px;
+}
+/* our_oder_section_end */
+/* billing_coupon_code_sector_start */
+.billing_coupon_code_sector{
+background-color: #3A0256;
+
+}
+.billing_coupon_code_sector .first_row input{
+    padding: 10px 0px;
+    font-size: 17px;
+    padding-left:10px;
+}
+.coupon_sector_btn .btn{
+color: white;
+background-color:red;
+text-align: center;
+text-transform: capitalize;
+font-family: "Barlow Condensed", Sans-serif;
+font-size: 20px;
+font-weight: 600;
+padding:8px 0px;
+width: 100%;
+}
+/* billing_coupon_code_sector_end */
+/* important_payment_part_start */
+
+.important_payment_mainly{
+ background-color: #3A0256;
+ 
+}
+/* billing_important_part_start */
+.billing_important_part_start {
+    /* background-color: #F7F7F7; */
+
+}
+
+.R_payment_system {
+    background-color: #B7B7B7;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.R_payment_system .R_pay_sys_one_img {
+    width: 30px;
+    height: 25px;
+}
+
+.R_payment_system #show-me-two {
+    display: none;
+}
+
+.R_payment_system #show-me-three {
+    display: none;
+}
+
+.R_payment_system #show-me-four {
+    display: none;
+}
+
+.R_payment_system #show-me-five {
+    display: none;
+}
+/* common_section_start */
+.R_rocket_part_details_start{
+    background-color: #BFA9A9;
+}
+.R_rocket_part_details_up{
+border-bottom: 1px dotted #AC8CB4;
+}
+.R_rocket_part_details_up h5{
+    color: #65645B;
+    font-size: 15px;
+    font-weight: normal;
+}
+.R_rocket_part_details_up h5 span{
+   font-weight: bold;
+}
+.R_rocket_part_details_up p{
+    font-size: 15px;
+    color:#3D9188;
+}
+.R_rocket_part_details_up p span{
+  font-weight: bold;
+  color: #3D883D;
+  font-family: "Hind Siliguri", Sans-serif;
+}
+/* R_rocket_part_details_up_end */
+/* R_rocket_part_details_footer_start */
+.R_rocket_part_details_footer{
+
+}
+.R_rocket_part_details_footer label{
+    color: #65645B;
+    font-size: 15px;
+    font-weight: normal;
+}
+.R_rocket_part_details_footer input{
+    width: 40%;
+}
+.R_rocket_part_details_footer input::placeholder{
+    color:#BBBAD2;
+}
+/* R_rocket_part_details_footer_end */
+/* important_payment_part_end */
+/* privacy_policy_start */
+.privacy_policy_start{
+background-color: #3A0256;
+}
+.privacy_policy_main{
+
+}
+.privacy_policy_main p{
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 10px;
+    color: #777;
+    text-align: justify;
+    text-transform: capitalize;
+}
+/* privacy_policy_end */
+.term_condition_section{
+display: flex;
+align-items:flex-start
+}
+.term_condition_section input{
+    color: white;
+    vertical-align:baseline;
+    vertical-align:bottom;
+    margin-top: 8px;
+    margin-right:6px;
+}
+.term_condition_section label{
+color: white;
+font-family: "Barlow Condensed", Sans-serif;
+font-size: 20px;
+}
+.term_cnc_color3{
+    color: green;
+}
+/* big_section_end */
+/* footer_section_start */
+.footer_section{
+
+}
+.footer_section_mainly{
+    text-align: center;
+}
+.footer_section_img{
+  width: 100%;
+  height: 60px;  
+}
+.footer_section_it_park{
+    background-color: #3A0256;
+}
+.footer_section_last{
+text-align: center;
+}
+.footer_section_last h4{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Barlow Condensed", Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+.footer_section_last h5{
+    color: #FFFFFF;
+    font-family: "Barlow Condensed", Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+/* footeer_section_end */

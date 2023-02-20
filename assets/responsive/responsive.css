@@ -1,0 +1,54 @@
+@media  (max-width: 1400px) { }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header_part_start */
+    .header_section_left h3 {
+        font-weight: 600;
+        font-family: 'Atma', cursive;
+        color: white;
+        font-size: 20px;
+    }
+    .header_part_right .btn {
+        font-size: 12px;
+    }
+    /* header_part_end */
+    .banner_caption_start h2 {
+    
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 77px;
+        color: #00ACE9;
+    }
+    .benefit_of_eco_web_details_para h5 {
+        text-align: center;
+    }
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .banner_caption_start h2 {
+        font-family: "Hind Siliguri", Sans-serif;
+        font-size: 53px;
+        font-weight: 700;
+        line-height: 65px;
+        color: #00ACE9;
+    }
+    .benefit_of_eco_web_details_para h5 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+   
+    .banner_caption_start h2 {
+        
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 48px;
+      
+    }
+    .benefit_of_eco_web_details_para h5 {
+        text-align: center;
+    }
+ }
